@@ -12,11 +12,14 @@ end
 #want to add an exclamation mark and capitalize the first letter of each word
 
 def summon_captain_planet(array)
-  array = ["carrot", "cucumber", "pepper"]
-  array.map{|string| string.capitalize} << "!"
-  
+  nu_array = []
+  i = 0 
+  while i < array.length 
+    nu_array << array[i].capitalize + "!"
+    i += 1 
+  end 
+  nu_array
 end
-
 
 
 def long_planeteer_calls(array) 
