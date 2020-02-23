@@ -12,13 +12,13 @@ end
 #want to add an exclamation mark and capitalize the first letter of each word
 
 def summon_captain_planet(array)
-  array = []
+  array_2 = []
   i = 0 
   while i < array.length 
-    array << array[i].capitalize + "!"
+    array_2 << array[i].capitalize + "!"
     i += 1 
   end 
-  array
+  array_2
 end
 
 
